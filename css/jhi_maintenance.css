@@ -1,0 +1,569 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* 
+CSS for Maintenance Page
+Date: 06/08/16
+Author: Shane McKinney (smckinney@jhancock.com)
+Department: Digital Experience, JHI
+*/
+
+/* body ids */
+
+#preheader {
+	background-color: #002D5B;
+	padding-top: 20px;
+}
+
+#header	{
+	color: #FFFFFF;
+	background-color:#002D5B;
+	padding-bottom: 15px;
+}
+
+#title {
+	padding: 25px 5px 0 20px;
+	color: #FFFFFF;
+}
+
+#subtitle {
+	padding: 10px 15px 0 0;
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 3.6rem; 
+	line-height: 1.25; 
+	letter-spacing: -.1rem; 
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 10px;
+}
+
+#headline1 {
+	text-align: center;
+	color: #83003F;
+	padding-left: 7%;
+	padding-right: 7%;
+}
+
+
+#headline2 {
+	text-align: center;
+	color: #83003F;
+	padding-left: 7%;
+	padding-right: 7%;
+}
+
+#headline3, #headline4	{
+	text-align: center;
+	color: #00558B;
+	padding-left: 7%;
+	padding-right: 7%;
+}
+
+#stat1, #stat2 {	
+	padding: 0 10px 0 50px;
+}
+
+#annual-returns {
+	text-align:center; 
+	color: #00558B;
+	font-weight: bold;
+	font-size: 18px;
+	padding-top: 20px;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+#stocks {
+	text-align: center;
+	color: #00558B;
+	font-weight: bold;
+	padding-bottom: 70px;
+}
+
+
+#box {
+	color: #FFFFFF;
+	background-color:#002D5B;
+	padding: 20px 20px 20px 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+#democrats, #republicans {
+	text-align: center;
+	padding-left: 3%;
+	margin-bottom: 0;
+}
+
+#donkey, #elephant {
+	height: 250px;
+	padding-top: 30px;
+}
+
+#dont-worry {
+	padding-top: 30px;
+	background-color: #D6E7F2;
+}
+
+#party-description {
+	background-image:url(../images/capitol.jpg);
+	background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#capitol-callout {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 15px 15px 30px 15px;
+	color: #000000; 
+	background-color:#FFFFFF;
+}
+
+#stocks-fared {
+	background-color: #D6E7F2;
+}
+
+#stats {
+	padding-bottom: 60px;
+}
+
+#tables {
+	background-color: #D6E7F2;
+	font-weight: bold;
+	padding-bottom: 30px;
+}
+
+#stay-invested {
+	color: #FFFFFF;
+	background-color: #6699cc;
+	padding: 20px 20px 5px 15px;
+	font-size:20px;
+	font-weight: bold;
+}
+
+#learn-more {
+	color: #FFFFFF;
+	background-color: #002D5B;
+	padding: 10px 0 10px 15px;
+	font-weight: bold;
+	font-size: 26px;
+}
+
+#social {
+	text-align: center;
+}
+	
+#social-icons {
+	display:block;
+	padding-top: 10px;
+}
+
+
+/************************* STYLES ********************************/
+
+/* headingss */
+h1 {
+	font-size: 4.5rem; 
+	line-height: 1.2;  
+	letter-spacing: 0rem; 
+	font-family: 'Roboto Slab', serif;
+}
+
+
+hr {
+	height:1px; 
+	border-color:#006699; 
+	background-color:#006699; 
+	width:55%; 
+	margin-top: 5px; 
+	margin-bottom: 0
+}
+
+/* stocks pie chart section */
+
+.stocks-years, .stocks-returns {
+	font-size: 15px;
+}
+
+.stocks-percents {
+	font-size: 30px;
+}
+
+.stocks-pie {
+	padding-top: 5px;
+	padding-bottom:0px;
+}
+
+
+/* returns stats section */
+
+.returns-percent {
+	font-size: 110px;
+	font-weight: 900;
+	font-family: 'Roboto Slab', serif;
+	line-height: 1;
+}
+
+.returns-incumbent {
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 1;
+}
+
+.returns-won-lost {
+	font-size: 60px;
+	font-weight: bold;
+	line-height: 1;
+}
+
+
+/* tables */
+
+table {
+	margin-bottom: 0 !important;
+	border: none !important;
+}
+
+td {
+	padding: 0;
+}
+
+.table-returns {
+	float:left; 
+	width:30%; 
+	border: 2px #D6E7F2 solid;
+	text-align: right; 
+	font-size: 14px;
+	box-sizing: border-box;
+	
+}
+
+.table-presidents {
+	float:left; 
+	width:30%; 
+	background-color: #FFFFFF; 
+	border: 2px #D6E7F2 solid; 
+	text-align:left; 
+	padding:0 0 0 5px; 
+	font-size: 20px;
+	
+}
+
+.table-numbers {
+	float:left; 
+	width:30%; 
+	background-color: #FFFFFF; 
+	border: 2px #D6E7F2 solid; 
+	text-align:right; 
+	padding:0 5px 0 0; 
+	font-size: 20px;
+	box-sizing: border-box;
+	
+}
+
+.table-average {
+	float:left; 
+	width:30%; 
+	border: 2px #D6E7F2 solid; 
+	text-align:left; 
+	padding: 8px 0 0 5px; 
+	font-size: 15px; 
+	
+}
+
+.table-totals {
+	float:left; 
+	width:30%; 
+	border: 2px #D6E7F2 solid; 
+	text-align:right; 
+	padding:0 5px 0 0; 
+	font-size: 20px; 
+	color: #FFFFFF;
+	box-sizing: border-box;
+}
+
+/* colors */
+
+.red {
+	color: #83003F;
+}
+
+.dark-blue {
+	color: #002D5B;
+}
+
+.blue {
+	color: #00558B;
+} 
+
+/* footer */
+
+.disclosure {
+	font-size: 12px;
+}
+
+.bullets {
+	color:#666;
+}
+
+/* lists */
+
+ul {
+	list-style-type: none;
+	padding-left: 10px;
+}
+
+li {
+	display: inline;
+	width: 3%;
+	padding-right: 1.5%;
+}
+
+/* spacers */
+
+.cushion_s {
+	padding-top: 20px;
+}
+
+.cushion_m {
+	padding-top: 50px;
+}
+
+/************************* MEDIA QUERIES ********************************/
+
+@media (max-width: 900px) {
+
+#container {
+	width: 100%;
+	padding: 0;
+}
+
+#democrats, #republicans {
+	padding-left: 2%;
+}
+
+#logo, #footer {
+	padding-left: 15px;
+	padding-right: 10px;
+	box-sizing: border-box;
+	margin-left: 0;
+}
+
+#disclosure {
+	padding-left: 15px;
+	padding-right: 15px;
+	box-sizing: border-box;
+	margin-left: 0;
+}
+
+#stat1 {
+	padding-left: 10%;
+}
+
+.returns-percent {
+	font-size: 90px;
+}
+}
+
+@media (max-width: 800px) {
+
+#title, #subtitle, #stocks, #annual-returns, #dont-worry, #stay-invested, #learn-more {
+	padding-left: 15px;
+	padding-right: 10px;
+	box-sizing: border-box;
+	margin-left: 0;
+}	
+
+#headline1, #headline2, #headline3, #headline4 {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	box-sizing: border-box;
+	margin-left: 0;
+	
+}
+ 
+#democrats, #republicans {
+	text-align: center;
+	clear: both; 
+	width: 80%; 
+	margin-bottom: 10px; 
+	margin-left: 11%; 
+	margin-right: 10%; 
+	
+}
+
+#party-description {
+	background-image: none;
+}
+
+#capitol-callout {
+	background-color: #D6E7F2;
+	color: #000000;
+	width: 82.6666666667%;
+	
+}
+
+#capitol-spacer {
+	width: 4.66666666667%;
+}
+
+.presidents {
+	padding-top: 60px;
+}
+
+.disappear {
+	display: none;
+
+}
+
+#stat1 {
+	padding-left: 7%;
+	padding-bottom: 20px;
+	padding-right: 10px;
+	box-sizing: border-box;
+}
+
+#stat2 {
+	padding-left: 2%;
+	padding-bottom: 20px;
+	padding-right: 10px;
+	box-sizing: border-box;
+}
+
+.elephant, .donkey {
+	height: auto;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+@media (max-width: 700px) {
+
+
+#logo {
+	padding-left: 15px;
+	padding-bottom: 10px;
+	width: 60%;
+}
+
+#bargraph {
+	text-align: center;
+}
+
+#box {
+	padding-right: 10px;
+}
+
+.cushion_m {
+	padding-top: 15px;
+}
+
+.pie {
+	padding-bottom: 80px;
+}
+
+#capitol-spacer {
+	width: 8%;
+}
+
+#stats {
+	padding-bottom: 30px;
+}
+
+#stat1 {
+	padding-bottom: 40px;
+}
+
+#stat2 {
+	padding-left: 0;
+}
+
+.returns-percent {
+	font-size: 75px;
+}
+
+.returns-incumbent {
+	font-size: 35px;
+}
+
+.returns-won-lost {
+	font-size: 50px;
+}
+
+.test-bookend {
+	style="width: 40%; 
+	float: left; 
+	text-align: center;
+}
+
+.presidents {
+	padding-top: 0 !important;
+}
+
+#democrats {
+	padding-top: 0 !important;
+}
+
+#republicans {
+	padding-top: 30px !important;
+} 
+
+.elephant, .donkey {
+	height: auto;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+@media (max-width: 550px) {
+.stocks {
+	padding-bottom: 80px;
+}
+
+#stat2 {
+	padding-left: 7%;
+}
+
+}
+
+
+@media (max-width: 490px) {
+
+#democrats, #republicans {
+	margin-left: 11%;
+
+}
+
+.table-returns {
+	font-size: 10px;
+}
+
+.table-average {
+	font-size: 11px;
+}
+
+.table-numbers, .table-totals {
+	font-size: 14px;
+}
+
+.table-presidents {
+	font-size: 13px;
+}
+
+.returns-percent {
+	font-size: 90px;
+}
+
+.returns-incumbent {
+	font-size: 40px;
+
+}
+
+.returns-won-lost {
+	font-size: 60px;
+}
+
+
+}
